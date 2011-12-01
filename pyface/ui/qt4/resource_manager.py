@@ -1,22 +1,18 @@
 #------------------------------------------------------------------------------
-# Copyright (C) 2007 Riverbank Computing Limited
-# Copyright (C) 2011 Richard Lincoln
+# Copyright (c) 2007, Riverbank Computing Limited
+# All rights reserved.
 #
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published
-# by the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
+# This software is provided without warranty under the terms of the BSD license.
+# However, when used with the GPL version of PyQt the additional terms described in the PyQt GPL exception also apply
+
 #
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Author: Riverbank Computing Limited
+# Description: <Enthought pyface package component>
 #------------------------------------------------------------------------------
 
+
 # Major package imports.
+from pyface.qt import QtCore, QtGui, QtSvg
 
 # Enthought library imports.
 from pyface.resource.api import ResourceFactory
